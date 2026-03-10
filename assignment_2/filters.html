@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search - LearnHub</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="navbar">
+        <div class="logo">
+            <span class="logo-icon">📖</span>
+            <span class="logo-text">LearnHub</span>
+        </div>
+        <nav class="nav-links">
+            <a href="#">All Courses</a>
+            <a href="#" class="active-link">Search</a>
+        </nav>
+        <div class="nav-actions">
+            <div class="cart-icon">🛒</div>
+            <button class="signin-btn">Sign In</button>
+        </div>
+    </header>
+
+    <div class="search-layout">
+        <aside class="sidebar">
+            <div class="sidebar-header">
+                <h3><span class="icon">⚙️</span> Filters</h3>
+                <button class="clear-all">Clear All</button>
+            </div>
+
+            <div class="filter-group">
+                <h4>Price Range</h4>
+                <div class="range-slider">
+                    <div class="slider-track"></div>
+                    <div class="slider-handle left"></div>
+                    <div class="slider-handle right"></div>
+                </div>
+                <div class="range-labels">
+                    <span>$0</span>
+                    <span>$200</span>
+                </div>
+            </div>
+
+            <div class="filter-group">
+                <h4>Category</h4>
+                <label class="checkbox-container">Development <input type="checkbox"><span class="checkmark"></span></label>
+                <label class="checkbox-container">Design <input type="checkbox" checked><span class="checkmark"></span></label>
+                <label class="checkbox-container">Data Science <input type="checkbox"><span class="checkmark"></span></label>
+                <label class="checkbox-container">Marketing <input type="checkbox"><span class="checkmark"></span></label>
+                <label class="checkbox-container">Photography <input type="checkbox"><span class="checkmark"></span></label>
+            </div>
+
+            <div class="filter-group">
+                <h4>Level</h4>
+                <label class="checkbox-container">Beginner <input type="checkbox"><span class="checkmark"></span></label>
+                <label class="checkbox-container">Intermediate <input type="checkbox" checked><span class="checkmark"></span></label>
+                <label class="checkbox-container">Advanced <input type="checkbox"><span class="checkmark"></span></label>
+            </div>
+        </aside>
+
+        <main class="results-list">
+            <div class="course-list-card">
+                <div class="list-img" style="background-image: url('design-thumb.jpg');"></div>
+                <div class="list-content">
+                    <div class="list-header">
+                        <div>
+                            <span class="tag tag-blue">Design</span>
+                            <span class="level-text">Intermediate</span>
+                            <h3>Advanced Graphic Design Masterclass</h3>
+                            <p class="instructor">Michael Chen</p>
+                        </div>
+                        <div class="list-price">
+                            <span class="price">$79.99</span>
+                            <span class="old-price-list">$149.99</span>
+                        </div>
+                    </div>
+                    <p class="description">Learn professional graphic design techniques using Adobe Creative Suite. From branding to print design.</p>
+                    <div class="list-meta">
+                        <span>⭐ 4.9 (8,642)</span>
+                        <span>👥 32k students</span>
+                        <span>🕒 35 hours</span>
+                    </div>
+                </div>
+            </div>
+
+            </main>
+    </div>
+
+</body>
+</html>
