@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LearnHub - All Courses</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="navbar">
+        <div class="logo">
+            <span class="logo-icon">📖</span>
+            <span class="logo-text">LearnHub</span>
+        </div>
+        <nav class="nav-links">
+            <a href="#" class="active">All Courses</a>
+            <a href="#">Search</a>
+        </nav>
+        <div class="nav-actions">
+            <div class="cart-icon">🛒</div>
+            <button class="signin-btn">Sign In</button>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="page-header">
+            <h1>All Courses</h1>
+            <p>Explore our complete course catalog</p>
+        </section>
+
+        <div class="chips-container">
+            <button class="chip active">All</button>
+            <button class="chip">Development</button>
+            <button class="chip">Design</button>
+            <button class="chip">Data Science</button>
+            <button class="chip">Marketing</button>
+            <button class="chip">Photography</button>
+            <button class="chip">Music</button>
+            <button class="chip">Health & Fitness</button>
+            <button class="chip">Language</button>
+        </div>
+
+        <div class="content-layout">
+            <aside class="sidebar">
+                <div class="filter-header">
+                    <h3><span>⚙️</span> Filters</h3>
+                    <button class="clear-btn">Clear All</button>
+                </div>
+
+                <div class="filter-group">
+                    <h4>Price Range</h4>
+                    <div class="range-slider">
+                        <div class="slider-track"></div>
+                        <div class="handle left"></div>
+                        <div class="handle right"></div>
+                    </div>
+                    <div class="range-labels">
+                        <span>$0</span>
+                        <span>$200</span>
+                    </div>
+                </div>
+
+                <div class="filter-group">
+                    <h4>Category</h4>
+                    <label class="check-item"><input type="checkbox"> Development</label>
+                    <label class="check-item"><input type="checkbox" checked> Design</label>
+                    <label class="check-item"><input type="checkbox"> Data Science</label>
+                </div>
+
+                <div class="filter-group">
+                    <h4>Ratings</h4>
+                    <div class="rating-item">⭐ 4.5 & up</div>
+                    <div class="rating-item">⭐ 4.0 & up</div>
+                </div>
+            </aside>
+
+            <section class="results-area">
+                <div class="results-meta">
+                    <span>8 courses found</span>
+                    <select class="sort-select">
+                        <option>Sort by: Most Popular</option>
+                    </select>
+                </div>
+
+                <div class="course-grid">
+                    <div class="course-card">
+                        <div class="card-img" style="background-image: url('https://images.unsplash.com/photo-1586717791821-3f44a563dc4c?w=400')"></div>
+                        <div class="card-body">
+                            <span class="tag tag-design">Design</span>
+                            <h3>Advanced Graphic Design Masterclass</h3>
+                            <p class="instructor">Michael Chen</p>
+                            <div class="card-stats">
+                                <span class="rating">⭐ 4.9 (8.6k)</span>
+                                <span class="meta">👥 32k • 🕒 35h</span>
+                            </div>
+                            <div class="card-price">
+                                <span class="price">$79.99</span>
+                                <span class="old-price">$149.99</span>
+                                <span class="discount">47% OFF</span>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+
+                <div class="cta-block">
+                    <div class="cta-icon">📈</div>
+                    <h2>Start Your Learning Journey Today</h2>
+                    <p>Join millions of learners worldwide. Get unlimited access to thousands of courses.</p>
+                    <button class="cta-btn">Get Started Now &rarr;</button>
+                </div>
+            </section>
+        </div>
+    </main>
+
+</body>
+</html>
