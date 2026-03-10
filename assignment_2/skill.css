@@ -1,0 +1,53 @@
+/* Metadata (Students and Hours) */
+.meta-info {
+    display: flex;
+    gap: 15px;
+    margin: 12px 0;
+    font-size: 13px;
+    color: #71717a; /* Muted gray */
+}
+
+/* Price Section */
+.price-section {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 15px;
+    padding-top: 15px;
+    border-top: 1px solid #f4f4f5;
+}
+
+.current-price {
+    font-size: 20px;
+    font-weight: 700;
+    color: #18181b;
+}
+
+.old-price {
+    font-size: 14px;
+    text-decoration: line-through;
+    color: #a1a1aa;
+}
+
+.discount-badge {
+    margin-left: auto; /* Pushes badge to the right */
+    background-color: #f0fdf4;
+    color: #16a34a;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 4px 8px;
+    border-radius: 4px;
+    border: 1px solid #bbf7d0;
+}
+
+/* Star styling */
+.star {
+    color: #f59e0b;
+    margin-right: 2px;
+}
+
+/* Category specific tag colors (Optional matching) */
+.tag-photo { background: #f0f9ff; color: #0369a1; }
+.tag-music { background: #f5f3ff; color: #6d28d9; }
+.tag-health { background: #ecfdf5; color: #047857; }
+.tag-lang { background: #fff7ed; color: #c2410c; }
