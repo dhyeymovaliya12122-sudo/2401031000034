@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Courses - LearnHub</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="navbar">
+        <div class="logo">
+            <span class="logo-icon">📖</span>
+            <span class="logo-text">LearnHub</span>
+        </div>
+        <nav class="nav-links">
+            <a href="#" class="active-link">All Courses</a>
+            <a href="#">Search</a>
+        </nav>
+        <div class="nav-actions">
+            <div class="cart-icon">🛒</div>
+            <button class="signin-btn">Sign In</button>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="page-header">
+            <h1>All Courses</h1>
+            <p>Explore our complete course catalog</p>
+        </section>
+
+        <div class="filters">
+            <button class="chip active">All</button>
+            <button class="chip">Development</button>
+            <button class="chip">Design</button>
+            <button class="chip">Data Science</button>
+            <button class="chip">Marketing</button>
+            <button class="chip">Photography</button>
+            <button class="chip">Music</button>
+            <button class="chip">Health & Fitness</button>
+            <button class="chip">Language</button>
+        </div>
+
+        <div class="results-bar">
+            <span>8 courses found</span>
+            <div class="sort-dropdown">
+                Sort by: <select><option>Most Popular</option></select>
+            </div>
+        </div>
+
+        <div class="course-grid">
+            <div class="course-card">
+                <div class="card-img" style="background-image: url('https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=400');"></div>
+                <div class="card-body">
+                    <span class="tag tag-dev">Development</span>
+                    <h3>Complete Web Development Bootcamp</h3>
+                    <p class="instructor">Sarah Johnson</p>
+                    <div class="rating">⭐ 4.9 <span>(8.6k)</span></div>
+                </div>
+            </div>
+
+            <div class="course-card">
+                <div class="card-img" style="background-image: url('https://images.unsplash.com/photo-1558655146-d09347e92766?w=400');"></div>
+                <div class="card-body">
+                    <span class="tag tag-design">Design</span>
+                    <h3>Advanced Graphic Design Masterclass</h3>
+                    <p class="instructor">Michael Chen</p>
+                    <div class="rating">⭐ 4.8 <span>(5.2k)</span></div>
+                </div>
+            </div>
+
+            <div class="course-card">
+                <div class="card-img" style="background-image: url('https://images.unsplash.com/photo-1551288049-bbbda536339a?w=400');"></div>
+                <div class="card-body">
+                    <span class="tag tag-ds">Data Science</span>
+                    <h3>Data Science & Machine Learning</h3>
+                    <p class="instructor">Dr. Emily Roberts</p>
+                    <div class="rating">⭐ 4.7 <span>(15.2k)</span></div>
+                </div>
+            </div>
+
+            <div class="course-card">
+                <div class="card-img" style="background-image: url('https://images.unsplash.com/photo-1556761175-b413da4baf72?w=400');"></div>
+                <div class="card-body">
+                    <span class="tag tag-mkt">Marketing</span>
+                    <h3>Digital Marketing Essentials</h3>
+                    <p class="instructor">Amanda Martinez</p>
+                    <div class="rating">⭐ 4.6 <span>(9.8k)</span></div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+</body>
+</html>
